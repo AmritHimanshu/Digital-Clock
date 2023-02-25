@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+#header ul {
+    background-color: rgba(87, 87, 87, 0.344);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 30px -10px rgb(255, 255, 255);
+}
+
+#header ul a {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+}
+
+#active {
+    background-color: rgb(0, 0, 0);
+    border-radius: 12px;
+}
+
+#active li {
+    color: rgb(255, 255, 255);
+}
+
+#header ul a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 12px;
+    transition: 100ms ease-in;
+}
+
+.hr{
+    margin: 0 auto;
+    width: 580px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    word-spacing: 50px;
+    letter-spacing: 20px;
+    width: 600px;
+    color: rgb(0, 255, 170);
+    /* border: 2px solid yellow; */
+}
+
+.digitalClock {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    /* border: 2px solid black; */
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 0);
+    box-shadow: 0 0 20px -5px black;
+    /* border: 2px solid green; */
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98px;
+    width: 98px;
+    /* border: 1px solid red; */
+}
+
+.dayTime{
+    letter-spacing: 5px;
+}
+
+.colon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
